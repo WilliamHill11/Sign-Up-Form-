@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* body {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+} */
+
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-left {
+    background: url(background.jpg);
+    width: 40vw;
+    background-position: bottom -150px left -450px;
+    background-repeat: no-repeat;
+
+}
+
+.content-right {
+    background-color: rgb(25, 5, 46);
+    box-shadow: 2px 2px 10px black;
+    width: 60vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    position: relative;
+    top: 12.5em;
+    background-color:  rgba(55, 19, 51, 0.6);
+    gap: 2em;
+}
+
+img {
+    border-radius: 10px;
+    width: 20%;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
