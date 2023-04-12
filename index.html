@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <title>Sign-Up Form</title>
 </head>
 <body>
@@ -18,16 +24,56 @@
         </div>
         <div class="content-right">
             <div class="random-text">
-                <p>This is not a real online service! Test out the form and see if it user friendly, don't forget to smile and live your life!</p>
+                <p>This is not a real online service! Test out the form and see if it's user friendly, don't forget to smile and live your life!</p>
                 <p>Sign up <em>now</em> to get started.</p>
                 <p class="separate-text">You <em>know</em> you want to.</p>
             </div>
 
-            <form action="" method="post">
+            <form>
                 <div class="form">
-                    <fieldset>
-                        <h2>Let's do this!</h2>
-                    </fieldset>
+                    <div class="h2">
+                        <p>Let's do this!</p>
+                    </div>
+                    
+                    <div class="input left">
+                        <label for="name">FIRST NAME</label>
+                        <input type="text" id="name" name="first-name" required>
+                    </div>
+
+                    <div class="input right">
+                        <label for="last">LAST NAME</label>
+                        <input type="text" id="last" name="last-name" required />
+                    </div>
+                 
+                    <div class="input left">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+
+                    <div class="input right">
+                        <label for="email">PHONE NUMBER</label>
+                        <input type="tel" name="email" id="email" />
+                    </div>
+
+                    <div class="input left">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required />
+                    </div>
+
+                    <div class="input right">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required/>
+                    </div> 
+
+                    <div class="submit">
+                        <button>Create Account</button>
+
+                        <div class="login">
+                            <p>Already have an account?</p>
+                            <a href="">Log in</a>
+                        </div>
+                    </div>
+
                 </div>
             </form>
 
